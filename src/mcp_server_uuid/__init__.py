@@ -1,2 +1,5 @@
+from . import server
+
+
 def main() -> None:
-    print("Hello from mcp-server-uuid!")
+    server.stdio_server()

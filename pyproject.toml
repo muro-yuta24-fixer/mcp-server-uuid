@@ -7,7 +7,9 @@ authors = [
     { name = "Y.Muro", email = "165998973+muro-yuta24-fixer@users.noreply.github.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "mcp[cli]>=1.10.1",
+]
 
 [project.scripts]
 mcp-server-uuid = "mcp_server_uuid:main"

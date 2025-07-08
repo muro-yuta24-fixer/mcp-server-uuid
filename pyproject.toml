@@ -1,0 +1,17 @@
+[project]
+name = "mcp-server-uuid"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Y.Muro", email = "165998973+muro-yuta24-fixer@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+mcp-server-uuid = "mcp_server_uuid:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
